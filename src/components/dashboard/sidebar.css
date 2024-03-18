@@ -1,0 +1,70 @@
+/* Sidebar */
+#sidebar-wrapper {
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #6c63ff;/* Sidebar background color */
+  color: #fff;
+
+}
+
+
+
+.sidebar-nav li {
+  text-indent: 20px; /* Indentation for list items */
+  line-height: 50px; /* Line height for list items */
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #fff; /* Text color */
+}
+
+.sidebar-nav li a:hover {
+  background-color: #8680f3;/* Hover background color */
+}
+
+.sidebar-brand {
+  font-size: 1.5em;
+  line-height: 50px; /* Line height for brand */
+  padding-left: 20px; /* Padding for brand */
+}
+
+/* Page content */
+#page-content-wrapper {
+  margin-left: 250px; /* Adjust for sidebar width */
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f9fa; /* Navbar background color */
+  border-bottom: 1px solid #dee2e6; /* Border bottom color */
+}
+
+.navbar-header {
+  margin-right: 20px;
+}
+
+.btn-toggle-menu {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.btn-toggle-menu i {
+  font-size: 24px;
+  color: #343a40; 
+}
+
+
+@media (max-width: 768px) {
+  #sidebar-wrapper {
+      width: 100px; /* Adjust sidebar width for smaller screens */
+  }
+  #page-content-wrapper {
+      margin-left: 100px; /* Adjust page content margin for smaller screens */
+  }
+}

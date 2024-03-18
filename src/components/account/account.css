@@ -1,0 +1,113 @@
+
+
+ 
+  .account-card-header {
+    font-weight: bold;
+  }
+  
+
+  
+  .img-account-profile {
+    width: 250px; /* Adjust the width */
+    height: 250px; /* Adjust the height */
+    border-radius: 50%;
+}
+
+  
+ 
+  /* account.css */
+
+/* Container styles */
+.account-container-xl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:50px;
+    width: 950px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Text alignment styles */
+.text-right {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Gutters for columns */
+.row.gutters {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row.gutters > [class^="col-"],
+.row.gutters > [class^="col-"] > .card {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 576px) {
+    .col-sm-6,
+    .col-md-6,
+    .col-lg-6,
+    .col-xl-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6,
+    .col-lg-6,
+    .col-xl-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-6,
+    .col-xl-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* Additional styling for form inputs */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

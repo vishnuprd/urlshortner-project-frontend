@@ -1,0 +1,87 @@
+/* Styles for the contact area */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section-title {
+    margin-bottom: 30px;
+  }
+  
+  .section-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .section-title p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Styles for the contact form */
+  .contact-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form-control:focus {
+    outline: none;
+    border-color: #6c63ff;
+  }
+  
+  textarea.contact-form-control {
+    resize: vertical;
+  }
+  
+  .btn-contact-bg {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-contact-bg:hover {
+    background-color: #564fcf;
+  }
+  
+  /* Styles for the contact information */
+  .single_address {
+    margin-bottom: 30px;
+  }
+  
+  .single_address i {
+    font-size: 24px;
+    color: #6c63ff;
+    margin-right: 10px;
+  }
+  
+  .single_address h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .single_address p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  

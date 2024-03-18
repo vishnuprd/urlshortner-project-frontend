@@ -1,0 +1,66 @@
+/* Add these styles to adjust the size of the price plan cards */
+
+.single_price_plan {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Make the card content stack vertically */
+    justify-content: space-between; /* Align content vertically */
+  }
+  
+  .single_price_plan .title {
+    margin-bottom: 25px;
+  }
+  
+  .single_price_plan .title h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .single_price_plan .title p {
+    font-size: 14px;
+    color: #808080;
+    margin-bottom: 0;
+  }
+  
+  .single_price_plan .price {
+    margin-bottom: 30px;
+  }
+  
+  .single_price_plan .price h4 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  
+  .single_price_plan .description {
+    margin-bottom: 30px;
+  }
+  
+  .single_price_plan .description p {
+    font-size: 16px;
+    color: #808080;
+    margin-bottom: 10px;
+  }
+  
+  .single_price_plan .button {
+    margin-bottom: 0;
+  }
+  
+  /* Adjust the width and height of the price plan cards */
+  .single_price_plan {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    height: 100%; /* Adjust the height as needed */
+  }
+  
+  /* Ensure all price plan cards have the same height */
+  .single_price_plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
